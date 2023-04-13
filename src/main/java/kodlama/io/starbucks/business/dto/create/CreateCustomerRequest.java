@@ -20,7 +20,7 @@ public class CreateCustomerRequest {
     @NotBlank(message = "Soyisim alanı boş bırakılamaz!")
     private String lastName;
     @NotNull(message = "Doğum tarihi boş bırakılamaz" )
-    private LocalDate dateOfBirth;
+    private int dateOfBirth;
     @NotBlank(message = "Tc Kimlik alanı boş bırakılamaz!")
     private String nationalIdentity;
     
